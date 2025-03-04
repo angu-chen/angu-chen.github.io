@@ -7,10 +7,20 @@
 }
 
 .navbar {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e6ecf2;
 }
 
 .navbar-li {
   display: inline;
+}
+
+.navbar-li-a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
 }
 .landing-section {
   background-image: url('../images/angu-olive.jpg');
