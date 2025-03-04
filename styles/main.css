@@ -1,7 +1,7 @@
 .main-body {
   /* off white */
   /* background-color: blue; */
-  /* background-color: #f7f9fc; */
+  background-color: #1a1c18;
   height: 100%;
   margin: 0;
 }
@@ -10,7 +10,7 @@
   display: block;
   height: 50px;
   line-height: 50px;
-  background-color: #e6ecf2;
+  background-color: #71716d;
 }
 
 .navbar-li {
