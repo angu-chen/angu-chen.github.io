@@ -116,3 +116,33 @@ header {
   font-size: 9px;
   padding: 80px 50px 5px 10px;
 }
+
+.blog-div {
+  text-align: center;
+}
+.blog-div h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.blog-div h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.blog-div p {
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: justify;
+  /* text-align: left; */
+  line-height: 1.5;
+}
+
+.blog-div img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 700px;
+  height: auto;
+}
