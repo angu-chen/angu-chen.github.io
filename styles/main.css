@@ -145,3 +145,20 @@ header {
   width: 700px;
   height: auto;
 }
+
+.blog-div ol {
+  padding-left: 100px;
+  padding-right: 50px;
+  /* text-align: justify; */
+  text-align: left;
+  line-height: 1.5;
+}
+
+.img-row::after {
+  display: flex;
+}
+
+.img-column {
+  flex: 33.33%;
+  padding: 5px;
+}
