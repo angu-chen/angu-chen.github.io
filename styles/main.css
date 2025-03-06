@@ -162,3 +162,8 @@ header {
   flex: 33.33%;
   padding: 5px;
 }
+
+#blog-list {
+  padding-top: 5em;
+  line-height: 1.5;
+}
