@@ -67,7 +67,19 @@ header {
   display: flex;
   margin: auto;
 }
+.floating-card {
+  /* background-color: rgba(65, 57, 57, 0.2); */
+  margin: 1em 10em 1em 10em;
+  padding: 2em 10em 2em 10em;
+}
 
+.floating-card p {
+  font-style: italic;
+  /* background-color: rgba(65, 57, 57, 0.2); */
+}
+.floating-card p:hover {
+  background-color: rgba(65, 57, 57, 0.7);
+}
 .container {
   padding: 2px 16px;
   width: 332px;
