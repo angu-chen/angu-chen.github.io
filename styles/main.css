@@ -19,6 +19,15 @@ button {
   text-decoration: none;
 }
 
+/* @media only screen and (max-width: 600px) {
+  .blog-div img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 40%;
+    height: auto;
+  }
+} */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -155,7 +164,7 @@ header {
 .blog-div img {
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 700px;
+  max-width: 50%;
   height: auto;
 }
 
