@@ -19,15 +19,6 @@ button {
   text-decoration: none;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .blog-div img {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 40%;
-    height: auto;
-  }
-} */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -81,7 +72,6 @@ header {
   margin: 1em 10em 1em 10em;
   padding: 2em 10em 2em 10em;
 }
-
 .floating-card p {
   font-style: italic;
   /* background-color: rgba(65, 57, 57, 0.2); */
@@ -164,7 +154,7 @@ header {
 .blog-div img {
   padding-top: 10px;
   padding-bottom: 10px;
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -192,4 +182,19 @@ header {
 
 .bold-style {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-div img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .floating-card {
+    /* background-color: rgba(65, 57, 57, 0.2); */
+    margin: 0;
+    padding: 30px 20px 30px 20px;
+  }
 }
