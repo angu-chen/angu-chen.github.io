@@ -184,6 +184,20 @@ header {
   font-weight: bold;
 }
 
+/* Code containers for examples */
+
+.code-container {
+  background-color: #1a1919;
+  border: 1px solid #999;
+  border-radius: 10px;
+  display: block;
+  padding: 20px;
+  text-align: left;
+  font-size: 13px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media only screen and (max-width: 600px) {
   .blog-div img {
     padding-top: 10px;
