@@ -20,11 +20,130 @@
     </header>
 
     <div class="blog-div">
-      <h1>Document Object Model (DOM)</h2>
+      <h1>Document Object Model (DOM)</h1>
+      <p>
+        The DOM is a data representation of the objects that make up the
+        structure and content of a website. It is a programming interface
+        allowing code to change the structure, style and content of said
+        website. The DOM is constructed as a tree of objects with objects only
+        ever having one parent. There is a core DOM API that defines the
+        entities and then the capabilities are further expanded upon by other
+        APIs.
+      </p>
+      <img src="../images/dom-glue.png" />
+      <p>
+        The DOM effectively acts as the glue that links Javascript, CSS and HTML
+        together.
+      </p>
 
-        <pre>
-          <code class="code-container"> some sort of code</code>
-        </pre>
+      <h2>So... how does it all fit?</h2>
+      <p>
+        HTML, CSS and Javascript is like an experience at a restaruant. For this
+        analogies sake, we have to pretend we are horrible people and an
+        incredibly picky eater. You are at a restaruant and your food has just
+        been served to you on a beautiful plate. The plate is the DOM. Here we
+        have...
+      </p>
+      <p>
+        <span class="bold-style">HTML</span>, the food, the basic ingredients
+        that sit on your plate. For example, chicken, micro-greens etc
+      </p>
+      <img src="../images/code-meal-html.png" />
+
+      <p>
+        <span class="bold-style">CSS</span>, how the plate is presented, the
+        flourish, the type of nutrients, the use of different colours and how
+        they are placed together on plate.
+      </p>
+      <img
+        src="../images/code-meal-css.html.png"
+        alt="code representing some css in metaphor"
+      />
+
+      <p>
+        <span class="bold-style">JavaScript</span>, where the magic happens, it
+        is what the chef and waiters is doing in the restaruant.You want an
+        extra steak medium raw? You want to replace the meat for a vegan
+        friendly katsu panko fried tofu? No problem. JavaScript allows you to
+        ask the chef to change your what’s on your plate. It can change what is
+        on your plate (structure, HTML) or change the display so your meat
+        doesn’t touch your peas (style, CSS)
+      </p>
+
+      <h2>So how does JavaScript work?</h2>
+      <p>
+        Lets look at the our restaruant example. When you asked the waiter to
+        swap the protein for a vegan friendly tofu the following actions can be
+        defined as JavaScript. Initially the waiter would start a function
+        called listenToCustomer(). Within the function, it may take what the
+        customer asks for and put it through a conditional statement, for
+        example, is it possible?
+      </p>
+
+      <p>
+        Javascript has effectively two conditional structure. There is the "if"
+        and "switch" structure. The if structure has several syntax that can be
+        used in conjunction with the if statement. This inlcudes the
+      </p>
+      <p>
+        <span class="bold-style">if(condition)</span> if the condition yields
+        true, the program does something
+      </p>
+      <p>
+        <span class="bold-style">if(condition) else....</span> This is basically
+        the same as the if statement but with a distinct action when the
+        condition is not met.
+      </p>
+      <p>
+        <span class="bold-style">if(condition) else if (condition) </span> This
+        is a combination of the two above where the else will only execute if
+        another condition is met.
+      </p>
+
+      <figure>
+        <img src="../images/if-statement.png" alt="if statement code block" />
+        <figcaption>
+          if code snippet from https://www.w3schools.com/js/js_if_else.asp
+        </figcaption>
+      </figure>
+
+      <p>
+        These if statements can be nested ontop of each other however if there
+        is many conditions, you could also use another conditional structure
+        called <span class="bold-style">'switch' </span>. The switch statement
+        is evaluated once and the result of the statement is compared to the
+        values of each value. If there is a match, the program will excute the
+        code within the associated block of code.
+      </p>
+
+      <figure>
+        <img src="../images/switch-statement.png" alt="switch statement" />
+        <figcaption>
+          "switch" code snippet from https://www.w3schools.com/js/js_switch.asp
+        </figcaption>
+      </figure>
+
+      <p>JavaScript also has several loop structures. Some are:</p>
+      <ul>
+        <li>for statment</li>
+        <li>do....while statement</li>
+        <li>while statement</li>
+      </ul>
+      <p>
+        The loop structures are used to repeat actions that are completed over
+        and over again. In our example, our waiter may be running a loop to
+        checkon all customers before returning to the kitchen. He might iterate
+        (visit) all the table on the restaruant floor.
+      </p>
+      <!-- FUNCTIONS -->
+      <h2>How does a function fit into this?</h2>
+      <p>
+        Well a function is a set of actions that you might need to do again. The
+        actions are package in a function so the programmer does not have to
+        rewrite the code everytime he needs it. In our example, the waiter
+        checking up on the tables is the function and within the function is
+        where the conditional and loop statements may live.
+      </p>
     </div>
 
     <!-- Footer -->
